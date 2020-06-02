@@ -29,11 +29,16 @@
    <!-- Modernizer for Portfolio -->
    <script src="js/modernizer.js"></script>
    <!-- [if lt IE 9] -->
+   <script  src="js/script.js"></script>
+   <script src="app.js"></script>
+
    </head>
    <body class="clinic_version">
       <!-- LOADER -->
       <div id="preloader">
          <img class="preloader" src="images/loaders/heart-loading2.gif" alt="">
+         
+
       </div>
       <!-- END LOADER -->
       <header>
@@ -52,7 +57,16 @@
                      </div>
                      <div class="info-inner">
                         <span class="icontop"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
-                        <span class="iconcont"><a data-scroll href="#">Daily: 7:00am - 8:00pm</a></span>
+                        <span class="iconcont">  <div class="main">
+
+                              <div class="clock">
+                                  <span id="hours">02:</span>
+                                  <span id="minutes">30:</span>
+                                  <span id="seconds">23</span>
+                              </div>
+
+                          </div>
+                        </span>
                      </div>
                   </div>
                </div>
