@@ -95,7 +95,7 @@ header {
     float: left;
     width: 100%;
     padding: 10px 0;
-}	
+}
 .header-top .navbar-brand {
     float: left;
     height: auto;
@@ -144,57 +144,16 @@ header {
 /** search bar **/
 #custom-search-input {
     padding: 0;
-    border: none;
+
     border-radius: 50px;
     background-color: #fff;
-    overflow: hidden;
+    overflow: auto;
     margin: 10px 0;
-}
-#custom-search-input .form-control.input-lg {
-    border-radius: 50px;
-    overflow: hidden;
-    border: yellow;
-    float: left;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 0px 25px 0 25px;
-    color: #222;
-    width: 200px;
-    height: 40px;
-}
-#custom-search-input button {
-    margin: 0;
-    background: none;
-    box-shadow: none;
-    color: #222;
-    padding: 0;
-}
-#custom-search-input button i {
-    font-size: 18px;
-    color: #333;
-}
-#custom-search-input input{
-    border: 0;
-    box-shadow: none;
-}
-#custom-search-input button{
-    margin: 0;
-    background: none;
-    box-shadow: none;
-    border: 0;
-    color: #666666;
-    padding: 0 15px 0 15px;
-    border-left: solid 1px #ccc;
-}
+    color: green
 
-#custom-search-input button:hover{
-    border: 0;
-    box-shadow: none;
-    border-left: solid 1px #ccc;
-}
 
-#custom-search-input .glyphicon-search{
-    font-size: 23px;
+
+
 }
 .big-tagline {
     float: left;
@@ -244,7 +203,7 @@ header {
     text-align: center;
     position: relative;
     z-index: 2;
-}	
+}
 .text-contant h2 a, .text-contant h2 a:hover, .text-contant h2 a:focus {
     color: #222;
     opacity: 1;
@@ -411,7 +370,7 @@ body.clinic_version .first-section h2 {
 }
 .icon-logo img {
     width: 60px;
-}	
+}
 .heading h2::after {
     width: 50px;
     height: 4px;
@@ -473,7 +432,7 @@ hr.hr1 {
     text-align: center;
     color: #fff;
     margin: 25px 0px;
-}	
+}
 .heading h2.white {
     color: #fff;
 }
@@ -661,7 +620,7 @@ body.clinic_version .tab-pane p {
     font-size: 40px;
     line-height: normal;
     left: 0;
-}	
+}
 .footer-info h3 {
     font-size: 16px;
     font-weight: 400;
@@ -938,7 +897,7 @@ body.clinic_version .footer .widget-title h3 {
     float: left;
     width: 98%;
     margin-top: 20px;
-}	
+}
 .tab-content ul {
     list-style: none;
     float: left;
@@ -1125,7 +1084,7 @@ nav.main-menu .navbar-toggle {
     letter-spacing: 0;
     font-weight: 500;
     margin-right: 5px;
-}	
+}
 
 /** mobile **/
 
@@ -1162,7 +1121,7 @@ header {
 }
 .navbar-brand {
     padding: 15px 0;
-}	
+}
 .header-bottom nav.main-menu {
     margin: 0;
     padding: 0;
@@ -1170,7 +1129,7 @@ header {
     background: transparent;
     float: left;
     width: 100%;
-}	
+}
 .header-bottom nav.main-menu #navbar {
     margin: 0;
 }
@@ -1189,7 +1148,7 @@ header {
     color: #222;
     background: transparent;
     box-shadow: none;
-}		
+}
 .service-time {
     float: left;
     width: 100%;
@@ -1202,19 +1161,19 @@ header {
 #home.first-section {
     position: relative;
     min-height: auto;
-}	
+}
 .service-time.middle::before {
 	display:none;
 }
 .service-time.middle::after {
 	display:none;
-}	
+}
 .typewrite {
     font-size: 28px;
 }
 .appointment-form {
     padding: 15px;
-}		
+}
 .heading h2 {
     font-size: 28px;
     margin: 10px 0;
@@ -1255,7 +1214,7 @@ body.clinic_version .desc {
 .footer-info h3, .subcriber-info h3 {
     margin-bottom: 20px;
     margin-top: 10px;
-}	
+}
 #home.first-section {
     margin-top: 135px !important;
 }
@@ -1284,19 +1243,19 @@ body.clinic_version .desc {
     float: right;
     width: 100%;
 }
-	
+
 }
 
 @media (min-width:768px) and (max-width:991px) {
 
-nav.main-menu .navbar-header {float: left;position: relative;top: 8px;right: 0;background: transparent;width: auto;height: auto;}	
+nav.main-menu .navbar-header {float: left;position: relative;top: 8px;right: 0;background: transparent;width: auto;height: auto;}
 .right-header {float: right;margin: 11px 0;display: none;}
 nav.main-menu .navbar-toggle {border: solid #fff 2px;}
 .header-top div.container {display: flex;justify-content: center;}
 #navbar.navbar-collapse {float: left;width: 100%;padding: 0;}
 .header-bottom nav.main-menu ul.nav.navbar-nav > li a {color: #fff;font-size: 16px;padding: 15px 15px;
     text-transform: none;letter-spacing: 0;font-weight: 500;margin-right: 5px;}
-.typewrite {font-size: 45px;}	
+.typewrite {font-size: 45px;}
 .service-time.middle::before,.service-time.middle::after {display:none;}
 .service-time {margin-top: 0;}
 .service-time.one {margin-top: -340px;}
@@ -1306,20 +1265,20 @@ nav.main-menu .navbar-toggle {border: solid #fff 2px;}
 #googleMap {height: 540px !important;}
 .footer-info h3, .subcriber-info h3 {float: left;width: 100%;}
 .footer-info p {float: left;width: 100%;}
-	
+
 }
 
 
 @media (min-width:992px) and (max-width:1000px) {
 
-nav.main-menu .navbar-header {float: left;position: relative;top: 8px;right: 0;background: transparent;width: auto;height: auto;}	
+nav.main-menu .navbar-header {float: left;position: relative;top: 8px;right: 0;background: transparent;width: auto;height: auto;}
 .right-header {float: right;margin: 11px 0;display: none;}
 nav.main-menu .navbar-toggle {border: solid #fff 2px;}
 .header-top div.container {display: flex;justify-content: center;}
 #navbar.navbar-collapse {float: left;width: 100%;padding: 0;}
 .header-bottom nav.main-menu ul.nav.navbar-nav > li a {color: #fff;font-size: 16px;padding: 15px 15px;
     text-transform: none;letter-spacing: 0;font-weight: 500;margin-right: 5px;}
-.typewrite {font-size: 45px;}	
+.typewrite {font-size: 45px;}
 .service-time.middle::before,.service-time.middle::after {display:none;}
 .serv p {display: none;}
 .inner-services {margin: 0 0;}
@@ -1329,34 +1288,18 @@ nav.main-menu .navbar-toggle {border: solid #fff 2px;}
 .service-time {padding: 50px 25px;}
 .pricing-table-header h2 {font-size: 25px;}
 .pricing-table-features {padding: 0 10px 15px 0;}
-	
+
 }
 
-@media (min-width:1001px) and (max-width:1199px) { 	
+@media (min-width:1001px) and (max-width:1199px) {
 
 .header-bottom nav.main-menu ul.nav.navbar-nav > li a {padding: 20px 18px;}
 .info-inner {float: left;margin-left: 30px;}
 
 }
 
-@media (min-width:1200px) and (max-width:1240px) {  
+@media (min-width:1200px) and (max-width:1240px) {
 
 .info-inner {float: left;margin-left: 30px;}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
