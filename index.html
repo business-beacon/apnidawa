@@ -7,7 +7,6 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- Site Metas -->
-   <head>
    <title>Apni dawaa</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
@@ -295,87 +294,83 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                  <div class="appointment-form">
-                    <div class="form">
-                       <form action="/upload.php">
-                     <h3><span>+</span> your Order with prescription</h3>
 
-                          <h4 align="center">Enter your details here.</h4><br />
-                          <?php print_r($message); ?>
-                          <form method="post" enctype="multipart/form-data">
-                           <fieldset>
-                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                 <div class="row">
-                                    <div class="form-group">
-                                       <input type="text" id="name" placeholder="Your Name"  required/>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                 <div class="row">
-                                    <div class="form-group">
-                                       <input name="address" placeholder="Address" class="form-control" id="textarea_message" required/>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                 <div class="row">
-                                    <div class="form-group">
-                                       <input type="email" placeholder="Email Address" id="email" required/>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 select-section">
-                                 <div class="row">
-                                    <div class="form-group">
-                                       <select class="form-control">
-                                          <option value="Liquid">Liquid</option>
-                                          <option value="Capsule">Capsule</option>
-                                          <option value="Drops">Drops</option>
-                                          <option value="Inhalers">Inhalers</option>
-                                          <option value="Injections">Injections</option>
-                                          <option value="Topical Medicines">Topical medicines</option>
-                                       </select>
-                                    </div>
-                                    <div class="form-group">
-
-                 <input placeholder="prescription" type="file" name="resume" accept=".jpg,.jpeg,.doc,.docx, .pdf" required />
-                 </div>
-                                 </div>
-                              </div>
-
-                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                 <div class="row">
-                                    <div class="form-group">
-                                       <input type="number" placeholder="Mobile Number" id="Number" required/>
-                                    </div>
-                                 </div>
-                              </div>
-
-                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                 <div class="row">
-                                    <div class="form-group">
-                                       <textarea rows="4" id="textarea_message" class="form-control" placeholder="Additional Infomation..."></textarea>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                 <div class="row">
-                                    <div class="form-group">
-                                       <div class="center"><button type="submit">Submit</button></div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </fieldset>
-
-                        </form>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+     <iframe
+       id="JotFormIFrame-201606255414447"
+       title="filepicker-io-form"
+       onload="window.parent.scrollTo(0,0)"
+       allowtransparency="true"
+       allowfullscreen="true"
+       allow="geolocation; microphone; camera"
+       src="https://form.jotform.com/201606255414447"
+       frameborder="0"
+       style="
+       min-width: 100%;
+       height:539px;
+       border:none;"
+       scrolling="no"
+     >
+     </iframe>
+     <script type="text/javascript">
+       var ifr = document.getElementById("JotFormIFrame-201606255414447");
+       if(window.location.href && window.location.href.indexOf("?") > -1) {
+         var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
+         if(ifr && get.length > 0) {
+           var src = ifr.src;
+           src = src.indexOf("?") > -1 ? src + "&" + get : src  + "?" + get;
+           ifr.src = src;
+         }
+       }
+       window.handleIFrameMessage = function(e) {
+         if (typeof e.data === 'object') { return; }
+         var args = e.data.split(":");
+         if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+         if (!iframe) { return; }
+         switch (args[0]) {
+           case "scrollIntoView":
+             iframe.scrollIntoView();
+             break;
+           case "setHeight":
+             iframe.style.height = args[1] + "px";
+             break;
+           case "collapseErrorPage":
+             if (iframe.clientHeight > window.innerHeight) {
+               iframe.style.height = window.innerHeight + "px";
+             }
+             break;
+           case "reloadPage":
+             window.location.reload();
+             break;
+           case "loadScript":
+             var src = args[1];
+             if (args.length > 3) {
+                 src = args[1] + ':' + args[2];
+             }
+             var script = document.createElement('script');
+             script.src = src;
+             script.type = 'text/javascript';
+             document.body.appendChild(script);
+             break;
+           case "exitFullscreen":
+             if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+             else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+             else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+             else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+             else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+             break;
+         }
+         var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+         if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+           var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+           iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+         }
+       };
+       if (window.addEventListener) {
+         window.addEventListener("message", handleIFrameMessage, false);
+       } else if (window.attachEvent) {
+         window.attachEvent("onmessage", handleIFrameMessage);
+       }
+       </script>
       <!-- end section -->
 
 	  <!-- doctor -->
