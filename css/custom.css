@@ -1208,8 +1208,7 @@ body.clinic_version .desc {
     min-height: 540px;
     background: yellow;
 }
-.contact-section #googleMap {
-    height: 550px !important;
+
 }
 .footer-info h3, .subcriber-info h3 {
     margin-bottom: 20px;
@@ -1261,8 +1260,7 @@ nav.main-menu .navbar-toggle {border: solid #fff 2px;}
 .service-time.one {margin-top: -340px;}
 .serv p {display: none;}
 .inner-services {margin: 0 0;}
-.form-contant {float: left;position: absolute;width: 40%;height: 100%;background: rgba(0,0,0,.8);z-index: 1;padding: 15px 30px;}
-#googleMap {height: 540px !important;}
+
 .footer-info h3, .subcriber-info h3 {float: left;width: 100%;}
 .footer-info p {float: left;width: 100%;}
 
