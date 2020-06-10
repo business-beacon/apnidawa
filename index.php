@@ -500,15 +500,9 @@ fully secured Digital Payment facility are available for everybody.</p>
                                     <h2>Reseller Hosting</h2>
                                     <h3>$85/one-time</h3>
                                  </div>
-                                 <div class="pricing-table-features">
-                                    <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                    <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                    <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
-                                    <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
-                                    <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
-                                 </div>
+
                                  <div class="pricing-table-sign-up">
-                                    <a href="#contact" data-scroll="" class="btn btn-dark btn-radius btn-brd">Order Now</a>
+                                    <a href="upi://pay?pa=rks60@paytm" data-scroll="" class="btn btn-dark btn-radius btn-brd">Order Now</a>
                                  </div>
                               </div>
                            </div>
@@ -525,15 +519,9 @@ fully secured Digital Payment facility are available for everybody.</p>
                                     <h3>$85/month</h3>
                                  </div>
                                  <div class="pricing-table-space"></div>
-                                 <div class="pricing-table-features">
-                                    <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
-                                    <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
-                                    <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
-                                    <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
-                                    <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
-                                 </div>
+
                                  <div class="pricing-table-sign-up">
-                                    <a href="#contact" data-scroll="" class="btn btn-dark btn-radius btn-brd">Order Now</a>
+                                    <a href="upi://pay?pa=rks60@paytm" data-scroll="" class="btn btn-dark btn-radius btn-brd">Order Now</a>
                                  </div>
                               </div>
                            </div>
@@ -547,13 +535,7 @@ fully secured Digital Payment facility are available for everybody.</p>
                                  <div class="pricing-table-text">
                                     <p>This is a perfect choice for small businesses and startups.</p>
                                  </div>
-                                 <div class="pricing-table-features">
-                                    <p><i class="fa fa-envelope-o"></i> <strong>150</strong> Email Addresses</p>
-                                    <p><i class="fa fa-rocket"></i> <strong>65GB</strong> of Storage</p>
-                                    <p><i class="fa fa-database"></i> <strong>60</strong> Databases</p>
-                                    <p><i class="fa fa-link"></i> <strong>30</strong> Domains</p>
-                                    <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
-                                 </div>
+
                                  <div class="pricing-table-sign-up">
                                     <a href="#contact" data-scroll="" class="btn btn-light btn-radius btn-brd grd1 effect-1">Order Now</a>
                                  </div>
@@ -573,83 +555,7 @@ fully secured Digital Payment facility are available for everybody.</p>
 
 	  <!-- end doctor section -->
 
-      <div id="testimonials" class="section wb wow fadeIn">
-         <div class="container">
-            <div class="heading">
-               <span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
-               <h2>Testimonials</h2>
-            </div>
-            <!-- end title -->
-            <div class="row">
-               <div class="col-md-6 col-sm-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                  <div class="testimonial clearfix">
-                     <div class="desc">
-                        <h3><i class="fa fa-quote-left"></i> The amazing clinic! Wonderful Support!</h3>
-                        <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                     </div>
-                     <div class="testi-meta">
-                        <img src="images/testi_01.png" alt="" class="img-responsive alignleft">
-                        <h4>James Fernando <small>- Manager of Racer</small></h4>
-                     </div>
-                     <!-- end testi-meta -->
-                  </div>
-                  <!-- end testimonial -->
-               </div>
-               <!-- end col -->
-               <div class="col-md-6 col-sm-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
-                  <div class="testimonial clearfix">
-                     <div class="desc">
-                        <h3><i class="fa fa-quote-left"></i> Thanks for Help us!</h3>
-                        <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                     </div>
-                     <div class="testi-meta">
-                        <img src="images/testi_02.png" alt="" class="img-responsive alignleft">
-                        <h4>Andrew Atkinson <small>- Life Manager</small></h4>
-                     </div>
-                     <!-- end testi-meta -->
-                  </div>
-                  <!-- end testimonial -->
-               </div>
-               <!-- end col -->
-            </div>
-            <!-- end row -->
-            <hr class="invis">
-            <div class="row">
-               <div class="col-md-6 col-sm-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
-                  <div class="testimonial clearfix">
-                     <div class="desc">
-                        <h3><i class="fa fa-quote-left"></i> The amazing clinic! Wonderful Support!</h3>
-                        <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                     </div>
-                     <div class="testi-meta">
-                        <img src="images/testi_03.png" alt="" class="img-responsive alignleft">
-                        <h4>Amanda DOE <small>- Manager of Racer</small></h4>
-                     </div>
-                     <!-- end testi-meta -->
-                  </div>
-                  <!-- end testimonial -->
-               </div>
-               <!-- end col -->
-               <div class="col-md-6 col-sm-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                  <div class="testimonial clearfix">
-                     <div class="desc">
-                        <h3><i class="fa fa-quote-left"></i> Thanks for Help us!</h3>
-                        <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
-                     </div>
-                     <div class="testi-meta">
-                        <img src="images/testi_01.png" alt="" class="img-responsive alignleft">
-                        <h4>Martin Johnson <small>- Founder of Goosilo</small></h4>
-                     </div>
-                     <!-- end testi-meta -->
-                  </div>
-                  <!-- end testimonial -->
-               </div>
-               <!-- end col -->
-            </div>
-            <!-- end row -->
-         </div>
-         <!-- end container -->
-      </div>
+
       <!-- end section -->
       <div id="getintouch" class="section wb wow fadeIn" style="padding-bottom:0;">
          <div class="container">
@@ -771,7 +677,7 @@ fully secured Digital Payment facility are available for everybody.</p>
       </div>
       <!-- end copyrights -->
       <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
-<script async data-id="48955" src="https://cdn.widgetwhats.com/script.min.js"></script>
+<script async data-id="49113" src="https://cdn.widgetwhats.com/script.min.js"></script>
       <!-- all js files -->
       <script src="js/all.js"></script>
       <!-- all plugins -->
