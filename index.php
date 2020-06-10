@@ -385,19 +385,21 @@ fully secured Digital Payment facility are available for everybody.</p>
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 							<div class="appointment-form">
-		      <div class="form">
+
 
 			  	<h3 align="center">upload prescription here </h3>
-
+<div class="form">
 				<?php print_r($message); ?>
-				<form method="post" enctype="multipart/form-data">
 
+				<form method="post" enctype="multipart/form-data">
+ <fieldset>
 					<div class="row">
 						<div class="col-md-6">
 							<div class="form-group">
 								<label>Enter Name</label>
 								<input type="text" name="name" placeholder="Enter Name" class="form-control" required />
 							</div>
+
 							<div class="form-group">
 								<label>Enter Address</label>
 								<textarea name="address" placeholder="Enter Address" class="form-control" required></textarea>
@@ -435,10 +437,17 @@ fully secured Digital Payment facility are available for everybody.</p>
 					<div class="form-group" align="center">
 						<input type="submit" name="submit" value="Submit" class="btn btn-info" />
 					</div>
-				</form>
+
 			</div>
+		</fieldset>
+			</form>
 		</div>
 	</div>
+</div>
+</div>
+</div>
+</div>
+
 
 
       <!-- end section -->
@@ -455,13 +464,17 @@ fully secured Digital Payment facility are available for everybody.</p>
                      <div class="tab-pane active fade in" id="tab1">
                         <div class="row text-center">
                            <div class="col-md-4">
-                              <div class="pricing-table">
-                                 <div class="pricing-table-header">
+														 <div class="pricing-table pricing-table-highlighted">
+ 															 <div class="pricing-table-header grd1">
                                    <h2>Ayurveda</h2>
-                                       <p style="text-align:left; margin-left: 15px; margin-top:15px">  The ongoing demand of our customer’s belief.
-									   Himalaya and Patanjali are the brand new companies with their customized products. Apart from this there are many other ayurved medicines</p>
+
+																	 <div class="pricing-table-space"></div>
+
+
+
                                  </div>
-                                 
+																 The ongoing demand of our customer’s belief. Himalaya and Patanjali are the brand new companies with their customized products. Apart from this there are many other ayurved medicines
+
                                  <div class="pricing-table-sign-up">
                                     <a href="#contact" data-scroll="" class="btn btn-dark btn-radius btn-brd">Order Now</a>
                                  </div>
@@ -471,21 +484,24 @@ fully secured Digital Payment facility are available for everybody.</p>
                               <div class="pricing-table pricing-table-highlighted">
                                  <div class="pricing-table-header grd1">
                                    <h2>Allopathy</h2>
-                                  <p style="text-align:left; margin-left: 15px; margin-top:15px">  We provide Allopathy medicines which is a Leading &amp; trusted name among all pharma companies. We would like to introduce ourselves as a marketing company with wide range of Syrups, Capsules, Tablets, Injectibels, Ointments and many more.</p>                               ></div>
+															</div>
                                  <div class="pricing-table-space"></div>
-                   
-                      
+
+																 We provide Allopathy medicines which is a Leading &amp; trusted name among all pharma companies. We would like to introduce ourselves as a marketing company with wide range of Syrups, Capsules, Tablets, Injectibels, Ointments and many more.</p>
+
                                  <div class="pricing-table-sign-up">
                                     <a href="upi://pay?pa=rks60@paytm" data-scroll="" class="btn btn-light btn-radius btn-brd grd1 effect-1">Order Now</a>
                                  </div>
                               </div>
                            </div>
                            <div class="col-md-4">
-                              <div class="pricing-table">
-                                 <div class="pricing-table-header">
+														 <div class="pricing-table pricing-table-highlighted">
+																<div class="pricing-table-header grd1">
                                    <h2>Homeopathy</h2>
-									  <p style="text-align:left; margin-left: 15px; margin-top:15px"> We provide wide range of homeopathic medicines from high involvement and total belief in the efficacy of homeopathy</p> 
-                            
+																 </div>
+
+																<div class="pricing-table-space"></div>
+																		<p> We provide wide range of homeopathic medicines from high involvement and total belief in the efficacy of homeopathy</p>
                                  <div class="pricing-table-sign-up">
                                     <a href="#contact" data-scroll="" class="btn btn-dark btn-radius btn-brd">Order Now</a>
                                  </div>
