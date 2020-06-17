@@ -385,8 +385,8 @@ medicine and more ,at your door step
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 							 <div class="serv">
 									<span class="icon-service"><img src="images/service-icon2.png" alt="#" /></span>
-									<h4>LARGE LABORATORY</h4>
-									<p>Lorem Ipsum is simply dummy text of the printing.</p>
+									<h4>MEDICATION</h4>
+									<p>Once you place an order, you will get your medicine delivered, right on time.</p>
 							 </div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
@@ -399,22 +399,22 @@ medicine and more ,at your door step
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 							 <div class="serv">
 									<span class="icon-service"><img src="images/service-icon4.png" alt="#" /></span>
-									<h4>CHILDREN CARE CENTER</h4>
+									<h4></h4>
 									<p>Lorem Ipsum is simply dummy text of the printing.</p>
 							 </div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 							 <div class="serv">
 									<span class="icon-service"><img src="images/service-icon5.png" alt="#" /></span>
-									<h4>Medicines Delivery</h4>
-									<p>Enrich high featured medicine ordering website with user friendly characteristic, which is supported by all the platforms including Android and iOS.</p>
+									<h4>MEDICINES DELIVERY</h4>
+									<p>Enrich high featured medicine ordering website with user friendly characteristic</p>
 							 </div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 							 <div class="serv">
 									<span class="icon-service"><img src="images/service-icon6.png" alt="#" /></span>
-									<h4>ANYTIME BLOOD BANK</h4>
-									<p>Lorem Ipsum is simply dummy text of the printing.</p>
+									<h4>PAYMENT</h4>
+									<p>you can pay via UPI, or other transaction mode which provide link in your sms or Whatsapp </p>
 							 </div>
 						</div>
 				 </div>
@@ -562,7 +562,7 @@ medicine and more ,at your door step
                <div class="col-md-4">
                   <div class="logo padding">
                      <a href=""><img src="images/logo.png" alt=""></a>
-                     <p>Locavore pork belly scen ester pine est chill wave microdosing pop uple itarian cliche artisan.</p>
+                     <p>Buy medicines online from India's favorite e-pharmacy. Buy prescription medicines, OTC products & household needs. Cash on delivery. Home delivery.</p>
                   </div>
                </div>
                <div class="col-md-4">
