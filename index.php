@@ -13,12 +13,8 @@ function clean_text($string)
 
 if(isset($_POST["submit"]))
 {
-	$programming_languages = '';
-	foreach($_POST["programming_languages"] as $row)
-	{
-		$programming_languages .= $row . ', ';
-	}
-	$programming_languages = substr($programming_languages, 0, -2);
+
+
 	$path = 'upload/' . $_FILES["resume"]["name"];
 	move_uploaded_file($_FILES["resume"]["tmp_name"], $path);
 	$message = '
@@ -36,10 +32,7 @@ if(isset($_POST["submit"]))
 				<td width="30%">Email Address</td>
 				<td width="70%">'.$_POST["email"].'</td>
 			</tr>
-			<tr>
-				<td width="30%">Required Medicine Type</td>
-				<td width="70%">'.$programming_languages.'</td>
-			</tr>
+
 
 			<tr>
 				<td width="30%">Phone Number</td>
@@ -223,21 +216,7 @@ if(isset($_POST["submit"]))
 								 </div>
 							</div>
 					 </div>
-					 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-							<div class="row">
-								 <div class="service-time middle" style="background:#0071d1;">
-										<span class="info-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
-										<h3>Working Hours</h3>
-										<div class="time-table-section">
-											 <ul>
-													<li><span class="left">Monday - Friday</span><span class="right">8.00 – 20.00</span></li>
-													<li><span class="left">Saturday</span><span class="right">8.00 – 16.00</span></li>
-													<li><span class="left">Sunday</span><span class="right">8.00 – 13.00</span></li>
-											 </ul>
-										</div>
-								 </div>
-							</div>
-					 </div>
+					
 					 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<div class="row">
 								 <div class="service-time three" style="background:#0060b1;">
@@ -335,55 +314,7 @@ fully secured Digital Payment facility are available for everybody.</p>
 		 <div id="service" class="services wow fadeIn">
 				<div class="container">
 					 <div class="row">
-							<div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
-								 <div class="inner-services">
-										<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-											 <div class="serv">
-													<span class="icon-service"><img src="images/service-icon1.png" alt="#" /></span>
-													<h4>PREMIUM FACILITIES</h4>
-													<p>Lorem Ipsum is simply dummy text of the printing.</p>
-											 </div>
-										</div>
-										<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-											 <div class="serv">
-													<span class="icon-service"><img src="images/service-icon2.png" alt="#" /></span>
-													<h4>LARGE LABORATORY</h4>
-													<p>Lorem Ipsum is simply dummy text of the printing.</p>
-											 </div>
-										</div>
-										<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-											 <div class="serv">
-													<span class="icon-service"><img src="images/service-icon3.png" alt="#" /></span>
-													<h4>Easy Upload Prescription</h4>
-													<p>You can easily upload the prescription on the website and pharmacist can preview it and tells the medicine.</p>
-											 </div>
-										</div>
-										<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-											 <div class="serv">
-													<span class="icon-service"><img src="images/service-icon4.png" alt="#" /></span>
-													<h4>CHILDREN CARE CENTER</h4>
-													<p>Lorem Ipsum is simply dummy text of the printing.</p>
-											 </div>
-										</div>
-										<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-											 <div class="serv">
-													<span class="icon-service"><img src="images/service-icon5.png" alt="#" /></span>
-													<h4>Medicines Delivery</h4>
-													<p>Enrich high featured medicine ordering website with user friendly characteristic, which is supported by all the platforms including Android and iOS.</p>
-											 </div>
-										</div>
-										<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-											 <div class="serv">
-													<span class="icon-service"><img src="images/service-icon6.png" alt="#" /></span>
-													<h4>ANYTIME BLOOD BANK</h4>
-													<p>Lorem Ipsum is simply dummy text of the printing.</p>
-											 </div>
-										</div>
-								 </div>
-							</div>
-
-
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 							<div class="appointment-form">
 
 
@@ -408,12 +339,7 @@ fully secured Digital Payment facility are available for everybody.</p>
 								<label>Enter Email </label>
 								<input type="email" name="email" class="form-control" placeholder="Enter Email Address" required />
 							</div>
-							<div class="form-group">
-								<label>mdicine type</label>
-								<select name="programming_languages[]" class="form-control" multiple required style="height:30px;">
-									<option value="Liquid">Liquid</option><option value="Capsule">Capsule</option><option value="Drops">Drops</option><option value="Inhalers">Inhalers</option><option value="Injections">Injections</option><option value="Topical Medicines">Topical medicines</option>
-								</select>
-							</div>
+
 
 						</div>
 						<div class="col-md-6">
@@ -437,16 +363,65 @@ fully secured Digital Payment facility are available for everybody.</p>
 					<div class="form-group" align="center">
 						<input type="submit" name="submit" value="Submit" class="btn btn-info" />
 					</div>
+				</div>
 
 			</div>
 		</fieldset>
 			</form>
 		</div>
+
+
+			<div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+				 <div class="inner-services">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							 <div class="serv">
+									<span class="icon-service"><img src="images/service-icon1.png" alt="#" /></span>
+									<h4>PREMIUM FACILITIES</h4>
+									<p>Lorem Ipsum is simply dummy text of the printing.</p>
+							 </div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							 <div class="serv">
+									<span class="icon-service"><img src="images/service-icon2.png" alt="#" /></span>
+									<h4>LARGE LABORATORY</h4>
+									<p>Lorem Ipsum is simply dummy text of the printing.</p>
+							 </div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							 <div class="serv">
+									<span class="icon-service"><img src="images/service-icon3.png" alt="#" /></span>
+									<h4>Easy Upload Prescription</h4>
+									<p>You can easily upload the prescription on the website and pharmacist can preview it and tells the medicine.</p>
+							 </div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							 <div class="serv">
+									<span class="icon-service"><img src="images/service-icon4.png" alt="#" /></span>
+									<h4>CHILDREN CARE CENTER</h4>
+									<p>Lorem Ipsum is simply dummy text of the printing.</p>
+							 </div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							 <div class="serv">
+									<span class="icon-service"><img src="images/service-icon5.png" alt="#" /></span>
+									<h4>Medicines Delivery</h4>
+									<p>Enrich high featured medicine ordering website with user friendly characteristic, which is supported by all the platforms including Android and iOS.</p>
+							 </div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							 <div class="serv">
+									<span class="icon-service"><img src="images/service-icon6.png" alt="#" /></span>
+									<h4>ANYTIME BLOOD BANK</h4>
+									<p>Lorem Ipsum is simply dummy text of the printing.</p>
+							 </div>
+						</div>
+				 </div>
+			</div>
+		</div>
 	</div>
 </div>
 </div>
-</div>
-</div>
+
 
 
 
