@@ -225,7 +225,8 @@ if(isset($_POST["submit"]))
 										<p>The delivery of medicines to other cities will be dispacthed within
 24 hours and delivered under 72 hours.</br>
 
-24X7 delivery of contraceptive and sanitary napkins,
+24X7 delivery of contraceptive and sanitary napkins,<br>
+medicine and more ,at your door step
 
 </p>
 								 </div>
@@ -245,7 +246,7 @@ if(isset($_POST["submit"]))
 								 <div class="message-box">
 										<h4>What We Do</h4>
 										<h2>Online Medicine Delivery Service</h2>
-										<p class="lead">Apni Dawaa is an online medicine delivery website, which  allows you to buy healthcare products, OTC products and medical equipment online. With website, you can also book diagnostic tests, including online blood tests, full body checkup and other preventive health check-up at affordable costs from the convenience of your home.
+										<p class="lead">Apni Dawaa is an online medicine delivery website, which  allows you to buy healthcare products, OTC products and medical equipment online. With website, you can also book diagnostic tests,   from the convenience of your home.
 
 </p>
 										<p> Our partner retailer will call you to confirm the healthcare products you need along with their quantities or diagnostic tests in case of diagnostic orders. In case of a diagnostic sample pickup, our partner agent will collect your sample from your home at the scheduled time.</p>
@@ -363,6 +364,7 @@ if(isset($_POST["submit"]))
 					<div class="form-group" align="center">
 						<input type="submit" name="submit" value="Submit" class="btn btn-info" />
 					</div>
+			<p> if you don't have prescription you can order through Whatsapp</P>
 				</div>
 
 			</div>
