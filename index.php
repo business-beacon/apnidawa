@@ -111,6 +111,14 @@ if(isset($_POST["submit"]))
    <!-- [if lt IE 9] -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
+	<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+</style>
+
    </head>
    <body class="clinic_version">
       <!-- LOADER -->
@@ -160,7 +168,7 @@ if(isset($_POST["submit"]))
 
 								 <div id="navbar" class="navbar-collapse collapse">
 											<ul class="nav navbar-nav">
-												 <li><a class="active" href="index.html">Home</a></li>
+												 <li><a class="active" href="#index">Home</a></li>
 												 <li><a data-scroll href="#about">About us</a></li>
 												 <li><a data-scroll href="#service">Order</a></li>
 
@@ -192,7 +200,7 @@ if(isset($_POST["submit"]))
 								 <div class="text-contant">
 										<h2>
 											 <span class="center"><span class="icon"><img src="images/icon-logo.png" alt="#" /></span></span>
-											 <a href="" class="typewrite" data-period="2000" data-type='[ "Welcome to Apni dawaa", "We Care Your Health", "We are Expert!" ]'>
+											 <a href="" class="typewrite" data-period="2000" data-type='[ "#Stay Home", "#Stay Safe"]'>
 											 <span class="wrap"></span>
 											 </a>
 										</h2>
@@ -212,7 +220,7 @@ if(isset($_POST["submit"]))
 										<span class="info-icon"><i class="fa fa-ambulance" aria-hidden="true"></i></span>
 										<h3>Delivery service</h3>
 
-										<p> Now, you can order your medicines online through websites and apps , You can also avail cash on delivery service across locations in Prayagraj and Varanasi, the minimum order is Rs 10.
+										<p> Now, you can order your medicines online through websites , You can also avail cash on delivery service across locations in Prayagraj and Varanasi, the minimum order is Rs 10.
 								 </div>
 							</div>
 					 </div>
@@ -223,10 +231,10 @@ if(isset($_POST["submit"]))
 										<span class="info-icon"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
 										<h3>Support</h3>
 										<p>The delivery of medicines to other cities will be dispacthed within
-24 hours and delivered under 72 hours.</br>
+24 hours and delivered under 72 hours.
 
 24X7 delivery of contraceptive and sanitary napkins,<br>
-medicine and more ,at your door step
+
 
 </p>
 								 </div>
@@ -234,97 +242,21 @@ medicine and more ,at your door step
 					 </div>
 				</div>
 		 </div>
-		 <div id="about" class="section wow fadeIn">
-				<div class="container">
-					 <div class="heading">
-							<span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
-							<h2>About Us</h2>
-					 </div>
-					 <!-- end title -->
-					 <div class="row">
-							<div class="col-md-6">
-								 <div class="message-box">
-										<h4>What We Do</h4>
-										<h2>Online Medicine Delivery Service</h2>
-										<p class="lead">Apni Dawaa is an online medicine delivery website, which  allows you to buy healthcare products, OTC products and medical equipment online. With website, you can also book diagnostic tests,   from the convenience of your home.
 
-</p>
-										<p> Our partner retailer will call you to confirm the healthcare products you need along with their quantities or diagnostic tests in case of diagnostic orders. In case of a diagnostic sample pickup, our partner agent will collect your sample from your home at the scheduled time.</p>
-										<a href="#services" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1">Learn More</a>
-								 </div>
-								 <!-- end messagebox -->
-							</div>
-							<!-- end col -->
-							<div class="col-md-6">
-								 <div class="post-media wow fadeIn">
-										<img src="images/about_03.jpg" alt="" class="img-responsive">
-										<a href="http://www./watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a>
-								 </div>
-								 <!-- end media -->
-							</div>
-							<!-- end col -->
-					 </div>
-					 <!-- end row -->
-					 <hr class="hr1">
-					 <div class="row">
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								 <div class="service-widget">
-										<div class="post-media wow fadeIn">
-											 <a href="images/clinic_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-											 <img src="images/clinic_01.jpg" alt="" class="img-responsive">
-										</div>
-										<h3> Allopathy</h3>
-								 </div>
-								 <!-- end service -->
-							</div>
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								 <div class="service-widget">
-										<div class="post-media wow fadeIn">
-											 <a href="images/clinic_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-											 <img src="images/clinic_02.jpg" alt="" class="img-responsive">
-										</div>
-										<h3>Homeopathy</h3>
-								 </div>
-								 <!-- end service -->
-							</div>
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								 <div class="service-widget">
-										<div class="post-media wow fadeIn">
-											 <a href="images/clinic_03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-											 <img src="images/clinic_03.jpg" alt="" class="img-responsive">
-										</div>
-										<h3>ayurvedic </h3>
-								 </div>
-								 <!-- end service -->
-							</div>
-							<div class="col-md-3 col-sm-6 col-xs-12">
-								 <div class="service-widget">
-										<div class="post-media wow fadeIn">
-											 <a href="images/clinic_04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-											 <img src="images/clinic_04.jpg" alt="" class="img-responsive">
-										</div>
-										<h3>surgical Items</h3>
-								 </div>
-								 <!-- end service -->
-							</div>
-					 </div>
-					 <!-- end row -->
-				</div>
-				<!-- end container -->
-		 </div>
+
 		 <div id="service" class="services wow fadeIn">
 				<div class="container">
 					 <div class="row">
-             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+						 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 							<div class="appointment-form">
 
 
-			  	<h3 align="center">Order Now </h3>
-<div class="form">
+					<h3 align="center">Order Now </h3>
+		<div class="form">
 				<?php print_r($message); ?>
 
 				<form method="post" enctype="multipart/form-data">
- <fieldset>
+		<fieldset>
 					<div class="row">
 						<div class="col-md-6">
 							<div class="form-group">
@@ -373,8 +305,15 @@ medicine and more ,at your door step
 		</div>
 
 
+
 			<div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
 				 <div class="inner-services">
+
+										 <div class="myDiv">
+											<h2>You CAN PAY THROUGH UPI</h2>
+											<p>apnidawaa@upi</p>
+										</div>
+
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 							 <div class="serv">
 									<span class="icon-service"><img src="images/service-icon1.png" alt="#" /></span>
@@ -420,10 +359,98 @@ medicine and more ,at your door step
 				 </div>
 			</div>
 		</div>
-	</div>
-</div>
+		</div>
+		</div>
 
 
+
+
+
+
+
+
+
+
+
+
+		 <div id="about" class="section wow fadeIn">
+				<div class="container">
+					 <div class="heading">
+							<span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
+							<h2>About Us</h2>
+					 </div>
+					 <!-- end title -->
+					 <div class="row">
+							<div class="col-md-6">
+								 <div class="message-box">
+										<h4>What We Do</h4>
+										<h2>Online Medicine Delivery Service</h2>
+										<p class="lead">Apni Dawaa is an online medicine delivery website, which  allows you to buy healthcare products, OTC products and medical equipment online. With website, you can also book diagnostic tests,   from the convenience of your home.
+
+</p>
+										<p> Our partner retailer will call you to confirm the healthcare products you need along with their quantities . </p>
+										<a href="#services" data-scroll class="btn btn-light btn-radius btn-brd grd1 effect-1">Learn More</a>
+								 </div>
+								 <!-- end messagebox -->
+							</div>
+							<!-- end col -->
+							<div class="col-md-6">
+								 <div class="post-media wow fadeIn">
+										<img src="images/about_03.jpg" alt="" class="img-responsive">
+										<a href="http://www./watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a>
+								 </div>
+								 <!-- end media -->
+							</div>
+							<!-- end col -->
+					 </div>
+					 <!-- end row -->
+					 <hr class="hr1">
+					 <div class="row">
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								 <div class="service-widget">
+										<div class="post-media wow fadeIn">
+											 <a href="images/clinic_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+											 <img src="images/clinic_01.jpg" alt="" class="img-responsive">
+										</div>
+										<h3> Allopathy</h3>
+								 </div>
+								 <!-- end service -->
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								 <div class="service-widget">
+										<div class="post-media wow fadeIn">
+											 <a href="images/clinic_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+											 <img src="images/clinic_02.jpg" alt="" class="img-responsive">
+										</div>
+										<h3>Homeopathy</h3>
+								 </div>
+								 <!-- end service -->
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								 <div class="service-widget">
+										<div class="post-media wow fadeIn">
+											 <a href="images/clinic_03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+											 <img src="images/clinic_03.jpg" alt="" class="img-responsive">
+										</div>
+										<h3>Ayurvedic </h3>
+								 </div>
+								 <!-- end service -->
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								 <div class="service-widget">
+										<div class="post-media wow fadeIn">
+											 <a href="images/clinic_04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+											 <img src="images/clinic_04.jpg" alt="" class="img-responsive">
+										</div>
+										<h3>Surgical Items</h3>
+								 </div>
+								 <!-- end service -->
+							</div>
+					 </div>
+					 <!-- end row -->
+				</div>
+				<!-- end container -->
+		 </div>
 
 
 
