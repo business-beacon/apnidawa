@@ -212,7 +212,7 @@ if(isset($_POST["submit"]))
 										<span class="info-icon"><i class="fa fa-ambulance" aria-hidden="true"></i></span>
 										<h3>Delivery service</h3>
 
-										<p> Now, you can order your medicines online through websites and apps , You can also avail cash on delivery service across locations in Prayagraj, the minimum order is Rs 10.
+										<p> Now, you can order your medicines online through websites and apps , You can also avail cash on delivery service across locations in Prayagraj and Varanasi, the minimum order is Rs 10.
 								 </div>
 							</div>
 					 </div>
@@ -223,11 +223,11 @@ if(isset($_POST["submit"]))
 										<span class="info-icon"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
 										<h3>Support</h3>
 										<p>The delivery of medicines to other cities will be dispacthed within
-24 hours and delivered under 72 hours.
+24 hours and delivered under 72 hours.</br>
 
-24X7 delivery of condoma and sanitary napkins,
+24X7 delivery of contraceptive and sanitary napkins,
 
-fully secured Digital Payment facility are available for everybody.</p>
+</p>
 								 </div>
 							</div>
 					 </div>
@@ -299,8 +299,8 @@ fully secured Digital Payment facility are available for everybody.</p>
 							<div class="col-md-3 col-sm-6 col-xs-12">
 								 <div class="service-widget">
 										<div class="post-media wow fadeIn">
-											 <a href="images/clinic_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-											 <img src="images/clinic_01.jpg" alt="" class="img-responsive">
+											 <a href="images/clinic_04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+											 <img src="images/clinic_04.jpg" alt="" class="img-responsive">
 										</div>
 										<h3>surgical Items</h3>
 								 </div>
@@ -376,8 +376,8 @@ fully secured Digital Payment facility are available for everybody.</p>
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 							 <div class="serv">
 									<span class="icon-service"><img src="images/service-icon1.png" alt="#" /></span>
-									<h4>PREMIUM FACILITIES</h4>
-									<p>Lorem Ipsum is simply dummy text of the printing.</p>
+									<h4>FACE MASK</h4>
+									<p>Here we provide all type, when it comes to buying a premade, nonmedical face mask, </p>
 							 </div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
@@ -390,7 +390,7 @@ fully secured Digital Payment facility are available for everybody.</p>
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 							 <div class="serv">
 									<span class="icon-service"><img src="images/service-icon3.png" alt="#" /></span>
-									<h4>Easy Upload Prescription</h4>
+									<h4>EASY UPLOAD PRESCRIPTION</h4>
 									<p>You can easily upload the prescription on the website and pharmacist can preview it and tells the medicine.</p>
 							 </div>
 						</div>
@@ -420,7 +420,7 @@ fully secured Digital Payment facility are available for everybody.</p>
 		</div>
 	</div>
 </div>
-</div>
+
 
 
 
@@ -568,7 +568,7 @@ fully secured Digital Payment facility are available for everybody.</p>
                      <h3>CONTACT US</h3>
                      <p><i class="fa fa-map-marker" aria-hidden="true"></i> varanasi, india </p>
                      <p><i class="fa fa-paper-plane" aria-hidden="true"></i> apnidawaa19@gmail.com </p>
-                     <p><a  class="fa fa-phone" aria-hidden="true" href="tel:+917839226481">7839226481</a></p>
+                     <p  class="fa fa-phone" aria-hidden="true"> <a  href="tel:+917839226481">+917839226481</a></p>
                   </div>
                </div>
                <div class="col-md-4">
