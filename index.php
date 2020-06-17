@@ -128,11 +128,11 @@ if(isset($_POST["submit"]))
 								 <div class="header-info">
 										<div class="info-inner">
 											 <span class="icontop"><img src="images/phone-icon.png" alt="#"></span>
-											 <span class="iconcont"><a href="tel:7992240355">7992240355</a></span>
+											 <span class="iconcont"><a href="tel:+917839226481">7839226481</a></span>
 										</div>
 										<div class="info-inner">
 											 <span class="icontop"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-											 <span class="iconcont"><a data-scroll href="mailto:info@yoursite.com">dev@test</a></span>
+											 <span class="iconcont"><a data-scroll href="apnidawaa19@gmail.com">apnidawaa</a></span>
 										</div>
 										<div class="info-inner">
 											 <span class="icontop"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
@@ -216,7 +216,7 @@ if(isset($_POST["submit"]))
 								 </div>
 							</div>
 					 </div>
-					
+
 					 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<div class="row">
 								 <div class="service-time three" style="background:#0060b1;">
@@ -318,7 +318,7 @@ fully secured Digital Payment facility are available for everybody.</p>
 							<div class="appointment-form">
 
 
-			  	<h3 align="center">upload prescription here </h3>
+			  	<h3 align="center">Order Now </h3>
 <div class="form">
 				<?php print_r($message); ?>
 
@@ -513,26 +513,26 @@ fully secured Digital Payment facility are available for everybody.</p>
          </div>
          <div class="contact-section">
             <div class="form-contant">
-               <form id="ajax-contact" action="contact.php" method="post">
+               <form id="ajax-contact" action="https://formspree.io/xknqznzr" method="post">
                   <div class="row">
                      <div class="col-md-6">
                         <div class="form-group in_name">
-                           <input type="text" class="form-control" placeholder="Name" required="required">
+                           <input type="text" class="form-control" name="name" placeholder="Name" required="required">
                         </div>
                      </div>
                      <div class="col-md-6">
                         <div class="form-group in_email">
-                           <input type="email" class="form-control" placeholder="E-mail" required="required">
+                           <input type="email" class="form-control" name="email" placeholder="E-mail" required="required">
                         </div>
                      </div>
                      <div class="col-md-6">
                         <div class="form-group in_email">
-                           <input type="tel" class="form-control" id="phone" placeholder="Phone" required="required">
+                           <input type="tel" class="form-control" id="phone" name="number" placeholder="Phone" required="required">
                         </div>
                      </div>
                      <div class="col-md-6">
                         <div class="form-group in_email">
-                           <input type="text" class="form-control" id="subject" placeholder="Subject" required="required">
+                           <input type="text" class="form-control" id="subject" name="Subject"placeholder="Subject" required="required">
                         </div>
                      </div>
                      <div class="col-md-12">
@@ -566,9 +566,9 @@ fully secured Digital Payment facility are available for everybody.</p>
                <div class="col-md-4">
                   <div class="footer-info padding">
                      <h3>CONTACT US</h3>
-                     <p><i class="fa fa-map-marker" aria-hidden="true"></i> india</p>
-                     <p><i class="fa fa-paper-plane" aria-hidden="true"></i> info@gmail.com</p>
-                     <p><a  class="fa fa-phone" aria-hidden="true" href="tel:7992240355">7992240355</a></p>
+                     <p><i class="fa fa-map-marker" aria-hidden="true"></i> varanasi, india </p>
+                     <p><i class="fa fa-paper-plane" aria-hidden="true"></i> apnidawaa19@gmail.com </p>
+                     <p><a  class="fa fa-phone" aria-hidden="true" href="tel:+917839226481">7839226481</a></p>
                   </div>
                </div>
                <div class="col-md-4">
@@ -582,14 +582,7 @@ fully secured Digital Payment facility are available for everybody.</p>
                               <button class="mc-submit" type="submit"><i class="fa fa-paper-plane"></i></button>
                               <div class="clearfix"></div>
                               <!-- mailchimp-alerts Start -->
-                              <div class="mailchimp-alerts">
-                                 <div class="mailchimp-submitting"></div>
-                                 <!-- mailchimp-submitting end -->
-                                 <div class="mailchimp-success"></div>
-                                 <!-- mailchimp-success end -->
-                                 <div class="mailchimp-error"></div>
-                                 <!-- mailchimp-error end -->
-                              </div>
+
                               <!-- mailchimp-alerts end -->
                            </div>
                         </form>
@@ -610,12 +603,11 @@ fully secured Digital Payment facility are available for everybody.</p>
                <div class="col-md-4">
                   <div class="social">
                      <ul class="social-links">
-                        <li><a href=""><i class="fa fa-rss"></i></a></li>
+
                         <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href=""><i class="fa fa-youtube"></i></a></li>
-                        <li><a href=""><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="https://twitter.com/apnidawaa?s=08"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/apnidawaa-internet-a628b31b0"><i class="fa fa-linkedin"></i></a></li>
+
                      </ul>
                   </div>
                </div>
@@ -632,6 +624,6 @@ fully secured Digital Payment facility are available for everybody.</p>
       <!-- map -->
 
       <script  src="js/script.js"></script>
-      <script src="app.js"></script>
+
    </body>
 </html>
