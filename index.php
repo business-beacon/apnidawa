@@ -258,7 +258,7 @@ medicine and more ,at your door step
 							<div class="col-md-6">
 								 <div class="post-media wow fadeIn">
 										<img src="images/about_03.jpg" alt="" class="img-responsive">
-										<a href="http://www.youtube.com/watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a>
+										<a href="http://www./watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a>
 								 </div>
 								 <!-- end media -->
 							</div>
@@ -399,8 +399,8 @@ medicine and more ,at your door step
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 							 <div class="serv">
 									<span class="icon-service"><img src="images/service-icon4.png" alt="#" /></span>
-									<h4></h4>
-									<p>Lorem Ipsum is simply dummy text of the printing.</p>
+									<h4>CHILD CARE</h4>
+									<p>Online shopping for Health & Personal Care from a great selection of Thermometers, Medical Kits, Mosquito Repellent, Scales & more .</p>
 							 </div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
@@ -453,7 +453,7 @@ medicine and more ,at your door step
 																 The ongoing demand of our customer’s belief. Himalaya and Patanjali are the brand new companies with their customized products. Apart from this there are many other ayurved medicines
 
                                  <div class="pricing-table-sign-up">
-                                    <a href="#contact" data-scroll="" class="btn btn-dark btn-radius btn-brd">Order Now</a>
+                                    <a href="upi://pay?pa=apnidawaa@upi" data-scroll="" class="btn btn-dark btn-radius btn-brd">Order Now</a>
                                  </div>
                               </div>
                            </div>
@@ -467,7 +467,7 @@ medicine and more ,at your door step
 																 We provide Allopathy medicines which is a Leading &amp; trusted name among all pharma companies. We would like to introduce ourselves as a marketing company with wide range of Syrups, Capsules, Tablets, Injectibels, Ointments and many more.</p>
 
                                  <div class="pricing-table-sign-up">
-                                    <a href="upi://pay?pa=rks60@paytm" data-scroll="" class="btn btn-light btn-radius btn-brd grd1 effect-1">Order Now</a>
+                                    <a href="upi://pay?pa=apnidawaa@upi" data-scroll="" class="btn btn-light btn-radius btn-brd grd1 effect-1">Order Now</a>
                                  </div>
                               </div>
                            </div>
@@ -480,7 +480,7 @@ medicine and more ,at your door step
 																<div class="pricing-table-space"></div>
 																		<p> We provide wide range of homeopathic medicines from high involvement and total belief in the efficacy of homeopathy</p>
                                  <div class="pricing-table-sign-up">
-                                    <a href="#contact" data-scroll="" class="btn btn-dark btn-radius btn-brd">Order Now</a>
+                                    <a href="upi://pay?pa=apnidawaa@upi" data-scroll="" class="btn btn-dark btn-radius btn-brd">Order Now</a>
                                  </div>
                               </div>
                            </div>
